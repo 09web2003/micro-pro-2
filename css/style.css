@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #3B4664;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    gap: 15px;
+}
+
+.container > h4 {
+    width: 100%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.text {
+    width: 100%;
+    height: 20%;
+    border-radius: 7px;
+    background: #181F32;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+.buttons {
+    width: 100%;
+    height: 80%;
+    border-radius: 7px;
+    background: #252D44;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5% 3%;
+    gap: 5%;
+}
+
+.buttons .row {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    width: 20%;
+    height: 90%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none!important;
+    cursor: pointer;
+}
+
+.buttons .specialButtons {
+    width: 45%!important;
+}
+
+.buttons button h4 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #3B4664;
+    font-weight: 900!important;
+    font-size: 18px;
+}
